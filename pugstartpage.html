@@ -1,0 +1,106 @@
+<!doctype html>
+<html dir="[direction]" lang="[language]" class="[class names]">
+	<head>
+        
+		[meta elements]
+
+		[link elements]
+
+		[style elements]
+
+		[script elements]
+
+		<title>[title]</title>
+	</head>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<body>
+        
+         <!-Initial Page ->
+        
+		<h1 style = color:aqua font-family: veranda> Welcome to PUG MATH!</h1>
+        <br>
+        
+         <h1 style = color:aqua font-family: veranda> Right now, the pug is sad....</h1>
+         <img src="https://images.pexels.com/photos/374906/pexels-photo-374906.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350" alt= "sad_puppy" width="500" height="377">
+        <br>
+        
+         <h1 style = color:aqua font-family: veranda> Isolate the variable to make him happy!</h1>
+         <img src="https://res.cloudinary.com/twenty20/private_images/t_watermark-criss-cross-10/v1442093922000/photosp/40230b20-bc64-4381-adef-6cc04a232395/stock-photo-animal-close-up-dog-animals-pet-pug-eyes-ears-whiskers-40230b20-bc64-4381-adef-6cc04a232395.jpg" alt="happy_puppy" width="500" height="377">
+        <br>
+        
+        <fieldset>
+        <button type = "start_game">Start Game</button>
+        </fieldset>
+        
+        <form action = "pugstartpage.html" method ="post">
+        
+    <fieldset>
+          
+        <legend>Your Name Here</legend>
+            
+        <label for = "name">First Name:</label>
+        
+        <input type = "text" id ="name" name = "first_name">
+        
+        <label for = "name">Last Name:</label>
+            
+        <input type = "text" id ="name" name = "last_name">
+          
+     </fieldset> 
+          
+     <fieldset>
+               
+        <legend>Your Self-Assessment</legend> 
+            
+        <label for = "self-assessment">In the text box, type a short description of your understanding of solving equations:</label>
+         <br>
+            
+        <textarea id = "self-assessment" name = "student_self_assessment"></textarea>
+         <br>
+        
+        <label for = "period">Period:</label>
+         
+         <select id = "period"name = "class period">
+         
+         <option value="1st">1st</option>
+         <option value="2nd">2nd</option>
+         <option value="3rd">3rd</option>
+         <option value="5th">5th</option>
+         <option value="6th">6th</option> 
+         <option value="7th">7th</option>
+             
+         </select>
+         
+        </fieldset>
+            
+        <button type = "submit">Sign Up</button>
+                                                                     
+        </form>
+        
+       <!-Page 2 ->
+          <!-label FOR should match id 
+            to group a list they should have the same name->
+        
+        <fieldset>
+        
+        <label>What kinds of equations will you use to make the pug happy today? </label><br>
+        
+        <input type = "checkbox" id = "one_step" value = "one" name = "equation types"><label for = "one_step">One-Step</label><br>
+        <input type = "checkbox" id = "two_step" value = "two" name = "equation types"><label for = "two_step">Two-Step</label><br>
+        <input type = "checkbox" id = "both sides" value = "both" name = "equation types"><label for = "both sides">Variables on Both Sides </label><br>
+        
+        </fieldset>
+        
+        
+        <fieldset>
+            
+        <label>Choose Your Options Here</label><br>
+        
+        <input type = "checkbox" id = "negatives" value = "negatives" name = "equation options"><label for = "negatives">Allow Negatives</label><br>
+        <input type = "checkbox" id = "integers" value = "integers" name = "equation options"><label for = "integers">Integers Only</label><br>
+        <input type = "checkbox" id = "distributive property" value = "distributive property" name = "equation options"><label for = "distributive property">Include Distributive Property </label>
+            
+        </fieldset>
+        
+	</body>
+</html>
